@@ -1,0 +1,410 @@
+.btn_theme{
+	background: #cc3f2f;
+	color: #fff;
+}
+.btn_theme:hover{
+	background: #cc3f2f;
+}
+label.error{
+	color: red !important;
+	text-transform: unset !important;
+}
+.for_pwd .pull-right a {
+	color: #cc3f2f;
+	font-size: 14px;
+	font-style: italic;
+}
+.for_pwd .pull-right a:hover{
+	text-decoration: underline;
+}
+.rem_btn{
+	font-size: 14px !important;
+}
+.rem_btn input[type="checkbox"]{
+	position: relative;
+	top: 3px;
+}
+.fogt_pwd label{
+	color: #202020;
+	font-size: 15px;
+}
+span.fget_line{
+	font-size: 13px;
+	font-weight: 700;
+	color: #878787;
+	margin-bottom: 8px;
+	display: block;
+}
+.login-form label{
+	font-size: 11px;
+	color: #212529;
+	text-transform: uppercase;
+}
+/*===Sidebar active =============*/
+#left-panel .navbar{
+	width: 100%;
+}
+.navbar .main-menu{
+	width: 100%;
+}
+.main-menu ul{
+	width: 100%;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .active > a:hover {
+	color: #cc3f2f;
+}
+.navbar .navbar-nav li.active .menu-icon, .navbar .navbar-nav li:hover .toggle_nav_button::before, .navbar .navbar-nav li .toggle_nav_button.nav-open::before {
+	color: #cc3f2f;
+}
+.navbar .navbar-nav li > a:hover, .navbar .navbar-nav li > a:hover .menu-icon {
+	color: #cc3f2f;
+}
+.content{
+	min-height: 100vh;
+}
+.right-panel .breadcrumbs {
+	float: left;
+	margin-top: 30px;
+	padding: 0 1.875em;
+	width: 100%;
+}
+.right-panel .breadcrumbs .breadcrumbs-inner {
+	background-color: #fff;
+}
+.right-panel .page-header {
+	min-height: 50px;
+	margin: 0px;
+	padding: 0px 15px;
+	background: #ffffff;
+	border-bottom: 0px;
+}
+.right-panel .page-header h1 {
+	font-size: 16px;
+	font-weight: 500;
+}
+ol.br-20 li{
+	font-size: 13px;
+}
+.custom-tab .nav-tabs > a.active, .custom-tab .nav-tabs > .active > a:focus, .custom-tab .nav-tabs > li.active > a:hover {
+	color: #cc3f2f;
+	position: relative;
+}
+.cstm-azy-btn-red {
+	font-size: 11px;
+	display: block;
+	margin: 0 auto;
+	background-color: #cc3f2f;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 38px;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+	line-height: 2;
+}
+.custom-tab .nav-tabs > a.active::after, .custom-tab .nav-tabs > li.active > a:focus::after, .custom-tab .nav-tabs > li.active > a:hover::after {
+	background: #cc3f2f;
+}
+.img_prof{
+	position: relative;
+}
+.img_prof img{
+	width: 260px;
+	height: 260px;
+	border-radius: 100%;
+	border: 1px dotted #b1b1b1;
+	padding: 3px;
+	object-fit: cover;
+}
+.file_upload {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #cc3f2f;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 13px;
+	right: 20px;
+	top: 32px;
+}
+.file_type {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+.cout_info .modal-header .close {
+	padding: 1rem;
+	margin: -2.8rem -1rem -1rem auto;
+}
+.cout_info .modal-header{
+	background: #f1f1f1;
+}
+
+.active{
+	color: #cc3f2f!important;
+}
+.view_prof_dash .form-group {
+	background: #f9f9f9;
+	padding: 5px 10px;
+	border-radius: 10px;
+	color: #000;
+}
+.view_prof_dash input.form-control, .view_prof_dash select.form-control {
+	pointer-events: none;
+	border: 0;
+	background: transparent;
+	color: #000;
+	height: 36px;
+}
+.terms_page label {
+	font-size: 12px;
+}
+.admin_img_prof img {
+	width: 460px;
+	height: 400px;
+	border: 1px dotted #b1b1b1;
+	padding: 3px;
+	object-fit: cover;
+}
+
+/*==================== Rohit css 03 Aug 2020 User =========================*/
+.user_adrs {
+	border: 1px solid #dddddd;
+	margin-bottom: 20px;
+}
+.pad20 {
+	padding: 20px;
+}
+.badge-primary {
+	color: #cc3f2f;
+	background-color: #fbd7d2;
+	font-weight: 500;
+}
+.cont_shd_frm label {
+	font-size: 12px;
+}
+.nam_numb {
+	font-weight: 500;
+	font-size: 20px;
+	color: #202020;
+}
+.adrs_usr {
+	margin: 0;
+	color: #707070;
+	font-size: 14px;
+}
+.badg_deflt {
+	background: #677fb8;
+	line-height: 0;
+	height: 0;
+	padding: 13px 13px;
+	color: #fff;
+	border-radius: 4px;
+}
+/*======================Store location Provider side css==================*/
+.saved_adrss {
+	padding: 20px;
+}
+.wrap_svd_adrs {
+	padding: 10px;
+	border: 1px solid #ddd;
+	position: relative;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+.wrap_svd_adrs i {
+	color: #adadad;
+	font-size: 50px;
+}
+.wrap_svd_adrs h2 {
+	color: #6d6d6d;
+	font-size: 22px;
+}
+.wrap_svd_adrs p {
+	color: #9d9d9d;
+}
+.wrap_svd_adrs h5 {
+	color: #6d6d6d;
+	font-size: 14px;
+}
+.wrap_svd_adrs p {
+	color: #9d9d9d;
+}
+.wrap_svd_adrs i {
+	color: #adadad;
+}
+.lc-mark i {
+    font-size: 17px;
+}
+/*======================END==================*/
+
+.vw_pro_img img{
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	object-fit: cover;
+	border: 1px dotted #b1b1b1;
+	padding: 3px;
+}
+
+.cat_detail p{
+	color: #000;
+	font-size: 14px;
+}
+/*==================Admin front logo css 14 sep========*/
+.login-logo img{
+	width: 170px;
+}
+/*==================Admin front logo css 14 sep========*/
+
+
+
+/*////////-Rohit 1 oct*/
+
+  .aapnd_ins {
+    display: inline-block;
+    border-radius: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #cc3f2f;
+    font-size: 18px;
+    margin: 0px 63px 0;
+    /*margin: 10px 8px 0;*/
+    cursor: pointer;
+  }
+  .delvry_terms{
+    border: 1px solid #ddddcf;
+  }
+  .delv-head{
+    padding: 10px 14px;
+    background-color: #cc3f2f;
+    color: #fff;
+  }
+  .delvry_terms form{
+    padding: 30px 30px;
+  }
+  .apnd_val, .ins_val {
+    background: #cc3f2f;
+    padding: 3px 8px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 10px 0;
+    display: inline-block;
+  }
+  /*.delvry_terms .build_add_fees{
+    width: 400px;
+    display: inline-block;
+  }*/
+  /*=========Rohit css 17 oct======*/
+  	.left-panel .navbar .navbar-nav li > a .menu-icon {
+		width: 28px;
+	}
+	.left-panel .navbar .navbar-nav li.menu-item-has-children a::before {
+		border-color: #c33e2d #c33e2d transparent transparent;
+	}
+	.navbar .navbar-nav li.menu-item-has-children.show a:hover::before {
+		border-color: transparent #c33e2d #c33e2d transparent;
+	}
+  /*=========Rohit css 17 oct======*/
+
+  /*===========Rohit css 20 oct=======*/
+	.chat_video{
+		width: 100%;
+	}
+	.chat-img {
+		height: 300px;
+		width: 100%;
+		object-fit: cover;
+	}
+	/*===========Rohit css 20 oct=======*/
+
+	/*=============Rohit css 21 oct======*/
+	.usr_msg {
+		max-width: 128px;
+	}
+	.nam_cht {
+		font-size: 14px !important;
+	}
+	/*=============Rohit css 21 oct======*/
+
+/*20 nov start*/
+.amt_fields .price_percnt {
+	width: 80px;
+	border: 1px solid #ced4da;
+	border-left: none;
+	background: rgba(204, 63, 47, 0.13);
+	white-space: nowrap;
+	height: 30px !important;
+}
+.amt_fields .price_percnt .active {
+	background: #cc3f2f;
+	color: #fff !important;
+	border-radius: 3px;
+	padding: 0px 4px;
+}
+.amt_fields .price_percnt span {
+	color: #cc3f2f;
+	font-weight: 500;
+	cursor: pointer;
+	display: inline-block;
+	margin: 2px 4px 0;
+}
+.amt_fields .form-control {
+	height: 30px !important;
+}
+.fees_fld .price_percnt {
+	height: 44px !important;
+}
+.fees_fld .form-control {
+	height: 44px !important;
+}
+.fees_fld .price_percnt span {
+	margin: 8px 4px 0;
+}
+.discount_wrap.price_field .form-control {
+	width: 130px;
+}
+.fee_radio_btn .custom-control.custom-radio {
+    background: #f1f1f1;
+    padding: 9px 41px;
+    /*margin-bottom: 9px;*/
+}
+.fee_radio_btn.radio_perc .custom-control-label::before {
+	position: absolute;
+	top: 0.45rem;
+	left: -1.5rem;
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	pointer-events: none;
+	content: "";
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: #dee2e6;
+}
+.fee_radio_btn.radio_perc .custom-control-label::after {
+	position: absolute;
+	top: 0.45rem;
+	left: -1.5rem;
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	content: "";
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50% 50%;
+}
+.fee_radio_btn.labl_amt {
+	background: #f1f1f1;
+}
+/*20 nov end*/
